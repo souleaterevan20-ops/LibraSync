@@ -2,7 +2,12 @@
   "version": 2,
   "framework": null,
   "functions": {
-    "api/index.php": { "runtime": "vercel-php@0.9.0" }
+    "api/index.php": {
+      "runtime": "vercel-php@0.9.0",
+      "options": {
+        "composerArgs": ["--no-dev", "--optimize-autoloader"]
+      }
+    }
   },
   "routes": [
     {
