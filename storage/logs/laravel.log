@@ -4708,3 +4708,29 @@ Content-Transfer-Encoding: quoted-printable
 #41 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
 #42 {main}
 "} 
+[2026-09-09 04:22:05] local.ERROR: Class "Laravel\Breeze\BreezeServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Breeze\\BreezeServiceProvider\" not found at C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:205)
+[stacktrace]
+#0 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(141): Illuminate/Foundation/ProviderRepository->createProvider('Laravel//Breeze//...')
+#1 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate/Foundation/ProviderRepository->compileManifest(Array)
+#2 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(871): Illuminate/Foundation/ProviderRepository->load(Array)
+#3 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(37): Illuminate/Foundation/Application->registerConfiguredProviders()
+#4 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/RegisterProviders->bootstrap(Object(Illuminate/Foundation/Application))
+#5 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#6 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#7 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#8 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#9 {main}
+"} 
+[2026-09-09 04:27:14] local.ERROR: Class "Laravel\Breeze\BreezeServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Breeze\\BreezeServiceProvider\" not found at C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:205)
+[stacktrace]
+#0 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(141): Illuminate/Foundation/ProviderRepository->createProvider('Laravel//Breeze//...')
+#1 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate/Foundation/ProviderRepository->compileManifest(Array)
+#2 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(871): Illuminate/Foundation/ProviderRepository->load(Array)
+#3 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(37): Illuminate/Foundation/Application->registerConfiguredProviders()
+#4 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/RegisterProviders->bootstrap(Object(Illuminate/Foundation/Application))
+#5 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#6 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#7 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#8 C:/Users/mitch/Documents/LIBRASYNC/LibraSync/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#9 {main}
+"} 
