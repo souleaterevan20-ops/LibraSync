@@ -13,6 +13,5 @@
       "src": "/(.*)",
       "dest": "api/index.php"
     }
-  ],
-  "excludeFiles": "tests/**"
+  ]
 }
