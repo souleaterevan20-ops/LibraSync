@@ -1,0 +1,5 @@
+ID,Name,Email,Role,"Account Status",Points,"Penalty Balance","Record Status"
+1,"Library Admin",admin@librasync.com,super_admin,active,0,0.00,active
+2,"Joanna Marie Adlawan",joannamarieadlawan@gmail.com,student,disabled,0,0.00,active
+3,"John Vergel B. Armeein",staff1@gmail.com,student_assistant,active,0,0.00,active
+4,"Junjie Adlawan",teacher1@gmail.com,teacher,disabled,0,0.00,active

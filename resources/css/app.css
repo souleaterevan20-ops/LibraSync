@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sidebar nav scrolls independently from the page, but the scrollbar itself
+   stays hidden for a cleaner look. Scrolling still works via mouse wheel,
+   trackpad, or touch — this only hides the visual scrollbar track/thumb. */
+.sidebar-scroll {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* old Edge/IE */
+}
+.sidebar-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, new Edge */
+}
+
+/* htmx loading indicator — hidden by default, fades in during a boosted request */
+.htmx-indicator {
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+}
+.htmx-request.htmx-indicator,
+.htmx-request .htmx-indicator {
+    opacity: 1;
+}
+
+/* Subtle fade so swapped page content doesn't pop in abruptly */
+#main-content {
+    animation: main-content-fade-in 150ms ease-out;
+}
+@keyframes main-content-fade-in {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
