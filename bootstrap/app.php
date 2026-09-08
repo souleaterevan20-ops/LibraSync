@@ -17,6 +17,10 @@ return Application::configure(basePath: dirname(__DIR__))
             'password.change' => \App\Http\Middleware\EnsurePasswordIsChanged::class,
         ]);
     })
-    ->withExceptions(function (Exceptions $exceptions): void {
+    ->withExceptions(function (Exceptions $exceptions) {
         //
-    })->create();
+    })
+    ->withProviders([
+        \Laravel\Pail\PailServiceProvider::class => false,
+    ])
+    ->create();
